@@ -1,9 +1,9 @@
 <?php
-$name =$_POST ["name"];
-$email =$_POST ["email"];
-$date =$_POST ["date"];
-$gender =$_POST ["gender"];
-$country =$_POST ["country"];
+$name =$_POST ['name'];
+$email =$_POST ['email'];
+$date =$_POST ['date'];
+$gender =$_POST ['gender'];
+$country =$_POST ['country'];
 
 echo "NAME: " . $name . "<br>";
 echo "EMAIL: " . $email . "<br>";
