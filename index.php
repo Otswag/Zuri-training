@@ -7,6 +7,7 @@
   <title>Registration Form</title>
 </head>
 <body>
+  <left> <h2>Registration Form</h2> </left>
   <form method="POST" action="user_data.php">
 
       <label for="name">
@@ -19,8 +20,8 @@
           Date of Birth: <input type="date" name="date">
       </label><br>
       <label for="gender">
-          Gender: <input type="radio" name="gender">Male
-      <input type="radio" name="gender">Female
+          Gender: <input type="radio" name="gender" value="Male">Male
+      <input type="radio" name="gender" Value="Female">Female
       </label><br>
       <label for="country">
           Country: <input type="text" name="country">
