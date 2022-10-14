@@ -1,4 +1,4 @@
-DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -19,8 +19,8 @@ DOCTYPE html>
           Date of Birth: <input type="date" name="date">
       </label><br>
       <label for="gender">
-          Gender: <input type="radio" name="female">female
-      <input type="radio" name="male">male
+          Gender: <input type="radio" name="gender">Male
+      <input type="radio" name="gender">Female
       </label><br>
       <label for="country">
           Country: <input type="text" name="country">
