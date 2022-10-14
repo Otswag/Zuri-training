@@ -7,7 +7,7 @@ DOCTYPE html>
   <title>Registration Form</title>
 </head>
 <body>
-  <form method="post" action="user_data.php">
+  <form method="POST" action="user_data.php">
 
       <label for="name">
           Name: <input type="text" name="name">
