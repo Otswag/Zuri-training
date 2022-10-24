@@ -1,9 +1,11 @@
 <?php
-$name = $_POST ['name'];
-$email = $_POST ['email'];
-$date = $_POST ['date'];
-$gender = $_POST ['gender'];
-$country =$_POST ['country'];
+  $user = array (
+    $_POST ['name'];
+    $_POST ['email'];
+    $_POST ['date'];
+    $_POST ['gender'];
+    $_POST ['country'];
+)
 
 echo "NAME: " . $name . "<br>";
 echo "EMAIL: " . $email . "<br>";
