@@ -15,7 +15,7 @@ echo "COUNTRY: " . $country . "<br>";
 
 $fp = fopen('userdata.csv', 'a');
 
-fputcsv($fp, $data);
+fputcsv($fp, $user);
 
 fclose($fp);
 ?>
